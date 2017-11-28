@@ -1,0 +1,33 @@
+body {
+    font-family: 'Barlow Condensed', sans-serif;
+}
+.chat-wrapper {
+    width:500px;
+    height: auto;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%);
+}
+.chat-wrapper h3 {
+    text-align: center;
+}
+.chat-wrapper input {
+    width: 100%;
+    height: 25px;
+    border: 1px solid #8d6f6f74;
+    border-radius: 4px;
+}
+#chat-content {
+    border:1px solid #8d6f6f74;
+    border-radius: 4px;
+    width: 100%;
+    height: 600px;
+    overflow-y: scroll;
+}
+
+#chat-content div {
+    word-wrap: break-word;
+    padding-right: 5px;
+    padding-left: 5px;
+}
