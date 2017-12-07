@@ -3,7 +3,7 @@
 // Om de node.js server te draaien, moet je in de root directory "npm start" uitvoeren. Ga naar localhost:2000 om je resultaten te zien.
 // ===========================================================================================================================================================================
 
-// Instantie van Socket.io. Als je geen host meegeeft, pakt hij automatisch de huidige domain/host. (In dit geval: Localhost:2000)
+// Instantie van Socket.io. Als je geen host meegeeft, pakt hij automatisch het huidige domein/host. (In dit geval: Localhost:2000)
 var socket = io();
 // De client kan net zoals de server, berichten ontvangen en versturen. Dit doe je met socket.on('eventname', function() {}) en socket.emit('eventname', data);
 // Op https://socket.io/docs/ kun je de documentatie bekijken.
